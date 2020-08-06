@@ -1,6 +1,6 @@
 import React from "react";
-import { CharacterCard } from "../component/card.jsx";
-import { PlanetCard } from "../component/planet_card.jsx";
+import { CharacterCard } from "../components/card";
+import { PlanetCard } from "../components/planet_card";
 import PropTypes from "prop-types";
 
 export class Home extends React.Component {
@@ -13,7 +13,7 @@ export class Home extends React.Component {
 	}
 
 	componentDidMount = () => {
-		fetch("https://swapi.co/api/people/?format=json")
+		fetch("https://swapi.dev/api/people/?format=json")
 			.then(res => res.json())
 			.then(response => {
 				if (typeof response === typeof {}) {
@@ -24,7 +24,7 @@ export class Home extends React.Component {
 			})
 			.catch(error => console.error("Error:", error));
 
-		fetch("https://swapi.co/api/planets/?format=json")
+		fetch("https://swapi.dev/api/planets/?format=json")
 			.then(res => res.json())
 			.then(response => {
 				console.log("Success:", typeof response);
