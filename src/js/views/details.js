@@ -38,7 +38,7 @@ export class Details extends React.Component {
 				<div className="row">
 					<div className="col-6">
 						<img
-							src="http://via.placeholder.com/800x600"
+							src="https://lumiere-a.akamaihd.net/v1/images/vicruls-sythe-main_e404bc44.jpeg"
 							className="w-100"
 						/>
 					</div>
