@@ -44,12 +44,7 @@ export class PlanetDetails extends React.Component {
 						<div className="text-center m-3">
 							<h2>{this.state.planets.name}</h2>
 							<p>
-								Sed ut perspiciatis unde omnis iste natus error
-								sit voluptatem accusantium doloremque
-								laudantium, totam rem aperiam, eaque ipsa quae
-								ab illo inventore veritatis et quasi architecto
-								beatae vitae dicta sunt explicabo. Nemo enim
-								ipsam voluptatem quia voluptas sit aspernatur
+								Sed ut perspiciatis 
 							</p>
 						</div>
 					</div>
