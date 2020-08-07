@@ -1,5 +1,10 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+body {
+    background: rgb(20,20,20);
+    color: lightgray;
+}
+
 .header{
     img{max-height: 50px;}
 }
